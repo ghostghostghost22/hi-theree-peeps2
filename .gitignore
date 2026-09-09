@@ -1,0 +1,10 @@
+/target/
+.rustbox/
+*.img
+*.qcow2
+*.raw
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+[package]
+name = "rustbox-vmm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+rustbox-core.workspace = true
+rustbox-cpu.workspace = true
+rustbox-memory.workspace = true
+rustbox-platform.workspace = true

@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rustbox-core",
+    "crates/rustbox-memory",
+    "crates/rustbox-cpu",
+    "crates/rustbox-platform",
+    "crates/rustbox-vmm",
+    "crates/rustbox-cli",
+]
+default-members = [
+    "crates/rustbox-core",
+    "crates/rustbox-memory",
+    "crates/rustbox-cpu",
+    "crates/rustbox-platform",
+    "crates/rustbox-vmm",
+    "crates/rustbox-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+license = "MIT"
+authors = ["RustBox contributors"]
+
+[workspace.dependencies]
+rustbox-core = { path = "crates/rustbox-core" }
+rustbox-memory = { path = "crates/rustbox-memory" }
+rustbox-cpu = { path = "crates/rustbox-cpu" }
+rustbox-platform = { path = "crates/rustbox-platform" }
+rustbox-vmm = { path = "crates/rustbox-vmm" }
